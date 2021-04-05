@@ -1,0 +1,96 @@
+/*starting css of navigation bar*/
+#ul {
+    list-style-type: none; 
+    overflow: hidden;
+    background-color:white;
+    font-size: 30px;
+}
+.li {
+    display: inline;
+    float: left;
+}
+.a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+#page1:hover {
+background-color: lightsalmon;
+}
+#page2:hover {
+background-color:rgb(172, 126, 126);
+}
+#page3:hover {
+    background-color:lightgreen;
+}
+#page4:hover {
+    background-color: lightgoldenrodyellow;
+}
+#page5:hover {
+    background-color: lightskyblue;
+}
+
+body {
+    background-image: url('https://imgc.allpostersimages.com/img/print/u-g-Q105PYK0.jpg?w=550&h=550&p=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#store {
+    position: absolute;
+    top: 100px;
+    left:100px ;
+}
+.stores {
+  font-size: xx-large; 
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkred;
+}
+.storefont {
+   text-decoration: none; 
+   color: darkred;
+}
+#vet {
+ position: absolute;
+ top: 100px;
+ right: 80px;
+ text-align: right;
+}
+#second {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: x-large;
+    color: rgb(143, 102, 86);
+    text-align: center; 
+    border: dotted rgb(205, 207, 51) 7px; 
+}
+#guinea {
+    height: 300px;
+    width: 300px;
+}
+#dog {
+    height: 300px;
+    width: 300px;
+    
+}
+#fish {
+    height: 300px;
+    width: 300px;
+}
+#cat {
+    height: 300px;
+    width: 300px;
+}
+#dog:hover{
+    border: dashed 6px; 
+    
+}
+#fish:hover{
+    border: dashed 6px;
+}
+#cat:hover{
+    border: dashed 6px;
+}
+#guinea:hover{
+    border: dashed 6px;
+}

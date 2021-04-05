@@ -1,0 +1,53 @@
+/*starting css of navigation bar*/
+#ul {
+    list-style-type: none; 
+    overflow: hidden;
+    background-color:white;
+    font-size: 30px;
+}
+.li {
+    display: inline;
+    float: left;
+}
+.a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+#page1:hover {
+background-color: lightsalmon;
+}
+#page2:hover {
+background-color:rgb(172, 126, 126);
+}
+#page3:hover {
+    background-color:lightgreen;
+}
+#page4:hover {
+    background-color: lightgoldenrodyellow;
+}
+#page5:hover {
+    background-color: lightskyblue;
+}.swimming {
+    height: 200px;
+    border: dashed 7px rgb(148, 149, 192);
+}
+.soccer {
+    height: 200px;border: dotted rgb(168, 80, 80) 15px;}
+    #badminton {
+        height: 200px ;
+        border: double wheat 8px;
+    }
+    .movies_shows {
+        height: 200px;
+    }
+    body {
+       background-color:rgb(133, 204, 200);
+    }
+    .paragraph {
+        font-family: cursive;}
+        .paragraph1 {
+            font-family: cursive;
+            font-weight: bolder;
+        }

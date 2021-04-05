@@ -1,0 +1,57 @@
+#intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large;
+    border: ridge;
+    
+}
+#rohan {
+font-size: 70px;font-family: cursive;
+}
+#first,#appearance,.hobbies,#second {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkred;
+}
+body {
+    background-image: url('https://img.freepik.com/free-photo/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background_24076-297.jpg?size=626&ext=jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+img {
+    height: 200px;
+}
+#selfie {
+    position: absolute;top: 100px;height: 220px;
+}
+/*starting css of navigation bar*/
+#ul {
+    list-style-type: none; 
+    overflow: hidden;
+    background-color:white;
+    font-size: 30px;
+}
+.li {
+    display: inline;
+    float: left;
+}
+.a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+#page1:hover {
+background-color: lightsalmon;
+}
+#page2:hover {
+background-color:rgb(172, 126, 126);
+}
+#page3:hover {
+    background-color:lightgreen;
+}
+#page4:hover {
+    background-color: lightgoldenrodyellow;
+}
+#page5:hover {
+    background-color: lightskyblue;
+}

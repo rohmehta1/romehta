@@ -1,0 +1,94 @@
+/*starting css of navigation bar*/
+#ul {
+  list-style-type: none; 
+  overflow: hidden;
+  background-color:white;
+  font-size: 30px;
+  
+}
+.li {
+  display: inline;
+  float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.a {
+  color: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+#page1:hover {
+background-color: lightsalmon;
+}
+#page2:hover {
+background-color:rgb(172, 126, 126);
+}
+#page3:hover {
+  background-color:lightgreen;
+}
+#page4:hover {
+  background-color: lightgoldenrodyellow;
+}
+#page5:hover {
+  background-color: lightskyblue;}
+    body {
+      
+        background-image: url('https://4cornershike.org/wp-content/uploads/2018/12/american-flag-hd-light.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+   
+      body {
+        
+        background-color: black;
+        width: 105vw;
+        height: 180vw;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .flip-card {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+      }
+      .flip-card-container:hover .flip-card {
+        transform: rotateY(180deg); 
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 340px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .flip-card-front {
+        background-color: #333;
+        color: #fff;
+        height: 400px;
+      }
+      .flip-card-back {
+        background-color: #0e5fa1;
+        color: #fff;
+        transform: rotateY(180deg);
+        border: groove 25px rgb(224, 191, 1);
+      }
+      
+      .flip-card-front img {
+        width: 390px;
+        height: 450px;
+      }
+      .flip-card-back p {
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.4rem;
+        background-color: #ff9999;
+        line-height: 1.5rem;
+      }
+      
